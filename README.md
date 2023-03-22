@@ -8,7 +8,7 @@ You would be able to find data transformation in `src/transformation.py`
 
 **Prerequisite**
 
-If you are not having python, please downmload from : <https://www.python.org/>
+If you are not having python, please download from : <https://www.python.org/>
 
 Setting up docker : <https://docs.docker.com/engine/install/>
 
@@ -33,7 +33,7 @@ Setting up virtual environment for python : <https://packaging.python.org/en/lat
 /sample/error_files         # dynamically created when their is an error in the file or in data
 /sample/final_data          # dynamically created output folder which contains `csv` per craft per planet
 /sample/archive             # dynamically created after transforming the data 
-/sample_data               # copied in sample data from (<https://github.com/sampleway/de-assignment>)
+/sample_data               # copied in sample data
 /src                       # contains the downloader from gcs, file handler and transformation logic             
 /test                      # functionality for testing
     /unit                  # unit test folder
